@@ -1,0 +1,55 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/aide"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:id="@+id/mpo"
+        android:layout_marginTop="10px"
+        android:hint="Choisissez ce que vous recherchez"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_inscri"
+        android:text="Inscripion"
+        android:layout_margin="5dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_cnx"
+        android:text="Authentification"
+        android:layout_margin="5dp"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn_moyen"
+        android:text="Un moyen de transport "
+        android:layout_margin="5dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

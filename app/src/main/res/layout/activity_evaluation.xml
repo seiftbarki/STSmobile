@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:layout_width="146dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/evaluation" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:max="5"
+        android:stepSize="0.25"
+        android:numStars="0"
+        android:focusable="false"
+        android:layout_gravity="center_horizontal"
+        android:focusableInTouchMode="false"
+        android:isIndicator="true"/>
+
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8pt"
+        android:id="@+id/D"
+        android:hint="Description"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:id="@+id/b1"
+        android:text="Terminé"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/login"
+       android:layout_marginTop="30dp"
+
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+
+        android:id="@+id/login"
+        android:hint="Login"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/pwd"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:id="@+id/b1"
+        android:text="Connexion"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:id="@+id/b2"
+        android:text="Annuler"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/email"
+            android:id="@+id/img"/>
+
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Mot de passe Oublié"
+            android:id="@+id/mpo"/>
+    </LinearLayout>
+
+</LinearLayout>
